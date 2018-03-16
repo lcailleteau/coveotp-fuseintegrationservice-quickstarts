@@ -44,7 +44,7 @@ objects:
       version: ${APP_VERSION}
     name: ${APP_NAME}
   spec:
-    clusterIP: None
+    type: NodePort
     deprecatedPublicIPs: []
     ports:
     - port: 8080
